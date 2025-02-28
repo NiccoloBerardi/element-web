@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovaTech - Innovazione Informatica</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            background: url('A_futuristic_black_and_white_background_with_a_hig.png') no-repeat center center/cover;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.7);
+            margin: 20px;
+            border-radius: 10px;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>InnovaTech</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Chi Siamo</a></li>
+                <li><a href="#services">Servizi</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Innovazione e Tecnologia al Tuo Servizio</h2>
+        <p>Offriamo soluzioni informatiche avanzate per aziende moderne.</p>
+        <img src="A_professional_black_and_white_image_of_a_futurist.png" alt="Interfaccia futuristica">
+    </section>
+    
+    <section id="about">
+        <h2>Chi Siamo</h2>
+        <p>InnovaTech è un'azienda leader nel settore IT con anni di esperienza.</p>
+        <img src="A_black_and_white_high-tech_office_setup_with_futu.png" alt="Ufficio high-tech">
+    </section>
+    
+    <section id="services">
+        <h2>Servizi</h2>
+        <ul>
+            <li>Sviluppo Software</li>
+            <li>Cybersecurity</li>
+            <li>Cloud Computing</li>
+            <li>Consulenza IT</li>
+        </ul>
+    </section>
+    
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Scopri alcuni dei nostri progetti realizzati.</p>
+        <img src="A_futuristic_black_and_white_image_of_a_robotic_ha.png" alt="Mano robotica">
+    </section>
+    
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Ultime novità e tendenze tecnologiche.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contattaci</h2>
+        <form>
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Messaggio" required></textarea>
+            <button type="submit">Invia</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 InnovaTech. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
